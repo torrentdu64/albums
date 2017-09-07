@@ -1,8 +1,10 @@
 import React from 'react';
-import {Text, AppRegistry} from 'react-native';
+import Header from './src/components/header';
+import { AppRegistry} from 'react-native';
+
 
 const App = () => (
-    <Text>Some text </Text>
+    <Header />
     );
 
 
